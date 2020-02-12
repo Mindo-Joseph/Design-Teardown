@@ -56,7 +56,7 @@ table {
 }
 .logo{
     display: inline-block;
-    margin-left: 2;
+    margin-left: 2%;
 }
 li{
     height: 100px;
@@ -70,4 +70,55 @@ li{
     height: 30px;
     margin-right: 4%;
     background-color: gray;
+}
+
+main {
+    position: relative;
+
+}
+.content {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.story{
+    width: 50%;
+    text-align: center;
+    padding-top: 15%;
+    padding-left: 5%;
+    padding-right: 5%;
+    background-color: hsl(0,0%, 50%);
+}
+.author {
+    height: 50px;
+    width: 50%;
+    margin-bottom: 30px;
+    background-color: hsl(0,0%, 35%);
+}
+.article-title {
+    height: 75px;
+    background-color:hsl(0,0%, 15%);
+
+}
+.tags{
+    height: 15px;
+    width: 40%;
+    margin-top: 5%;
+    margin-bottom: 20%;
+    background-color: hsl(0,0%, 60%);
+}
+.light{
+    background-color: hsl(0,0%, 80%);
+}
+.dark{
+    background-color: hsl(0,0%, 20%);
+}
+.center-text {
+    background-color: white;
+    position: absolute;
+    left: 42%;
+    margin-top: 2%;
+    font-size: 36px;
+    font-weight: bold;
 }
