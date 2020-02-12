@@ -41,3 +41,33 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
+*{
+    box-sizing: border-box;
+    
+}
+.main-header{
+    padding: 20px 0;
+}
+.header-items{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    display: inline-block;
+    margin-left: 2;
+}
+li{
+    height: 100px;
+    width: 120px;
+    background-color: gray;
+    display: inline-block;
+    margin-right: 15px;
+}
+.search{
+    width: 120px;
+    height: 30px;
+    margin-right: 4%;
+    background-color: gray;
+}
