@@ -12,7 +12,7 @@ This project consists of building a heatmap of the Smashing Magazine website.
 
 - Github: Mindo-Joseph
 - Twitter: @mindoJoseph
-- Linkedin: 
+- Linkedin: Joseph Mindo
 
 
 👤 María de los Angeles Hinojosa Pretell
