@@ -1,124 +1,251 @@
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
-}
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
-}
-body {
-	line-height: 1;
-}
-ol, ul {
-	list-style: none;
-}
-blockquote, q {
-	quotes: none;
-}
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
-}
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
 }
 
-*{
-    box-sizing: border-box;
-    
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
 }
-.main-header{
-    padding: 20px 0;
+
+body {
+  line-height: 1;
 }
-.header-items{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+
+ol,
+ul {
+  list-style: none;
 }
-.logo{
-    display: inline-block;
-    margin-left: 2%;
+
+blockquote,
+q {
+  quotes: none;
 }
-li{
-    height: 100px;
-    width: 120px;
-    background-color: gray;
-    display: inline-block;
-    margin-right: 15px;
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
 }
-.search{
-    width: 120px;
-    height: 30px;
-    margin-right: 4%;
-    background-color: gray;
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+* {
+  box-sizing: border-box;
+
+}
+
+.main-header {
+  padding: 20px 0;
+}
+
+.header-items {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  display: inline-block;
+  margin-left: 2%;
+}
+
+li {
+  height: 100px;
+  width: 120px;
+  background-color: gray;
+  display: inline-block;
+  margin-right: 15px;
+}
+
+.search {
+  width: 120px;
+  height: 30px;
+  margin-right: 4%;
+  background-color: gray;
 }
 
 main {
-    position: relative;
+  position: relative;
 
 }
+
 .content {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
 
-.story{
-    width: 50%;
-    text-align: center;
-    padding-top: 15%;
-    padding-left: 5%;
-    padding-right: 5%;
-    background-color: hsl(0,0%, 50%);
+.story {
+  width: 50%;
+  text-align: center;
+  padding-top: 15%;
+  padding-left: 5%;
+  padding-right: 5%;
+  background-color: hsl(0, 0%, 50%);
 }
+
 .author {
-    height: 50px;
-    width: 50%;
-    margin-bottom: 30px;
-    background-color: hsl(0,0%, 35%);
+  height: 50px;
+  width: 50%;
+  margin-bottom: 30px;
+  background-color: hsl(0, 0%, 35%);
 }
+
 .article-title {
-    height: 75px;
-    background-color:hsl(0,0%, 15%);
+  height: 75px;
+  background-color: hsl(0, 0%, 15%);
 
 }
-.tags{
-    height: 15px;
-    width: 40%;
-    margin-top: 5%;
-    margin-bottom: 20%;
-    background-color: hsl(0,0%, 60%);
+
+.tags {
+  height: 15px;
+  width: 40%;
+  margin-top: 5%;
+  margin-bottom: 20%;
+  background-color: hsl(0, 0%, 60%);
 }
-.light{
-    background-color: hsl(0,0%, 80%);
+
+.light {
+  background-color: hsl(0, 0%, 80%);
 }
-.dark{
-    background-color: hsl(0,0%, 20%);
+
+.dark {
+  background-color: hsl(0, 0%, 20%);
 }
+
 .center-text {
-    background-color: white;
-    position: absolute;
-    left: 42%;
-    margin-top: 2%;
-    font-size: 36px;
-    font-weight: bold;
+  background-color: white;
+  position: absolute;
+  left: 42%;
+  margin-top: 2%;
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.blue {
+  width: 100%;
+  height: 400px;
+  background-color: black;
+  display: flex;
+  align-content: flex-end;
+}
+
+.blue-button {
+  width: 25%;
+  height: 55px;
+  background-color: blueviolet;
+  border-radius: 7px;
+  margin-left: 15%;
+}
+
+.four-divs {
+  width: 100%;
+  height: 500px;
+  background-color: gray;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.red {
+  border-radius: 20px;
 }
