@@ -235,7 +235,7 @@ main {
 .blue-button {
   width: 25%;
   height: 55px;
-  background-color: blueviolet;
+  background-color: white;
   border-radius: 7px;
   margin-left: 15%;
   margin-bottom: 5%;
@@ -328,7 +328,7 @@ main {
 .explore-features {
   width: 40%;
   height: 55px;
-  background-color: blueviolet;
+  background-color: white;
   border-radius: 7px;
   margin-left: 20%;
   margin-top: 150px;
