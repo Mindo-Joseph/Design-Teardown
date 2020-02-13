@@ -254,20 +254,20 @@ main {
     margin-top: 10% ;
     margin-top: 10% ;
 }
-.text{
+.text {
     text-align: center;
     margin-top: 2%;
     margin-bottom: 2%;
 }
 
-.bigger-ad{
+.bigger-ad {
     display: flex;
     flex-direction: column;
     justify-content: center;
     height: 600px;
     background-color: hsl(0, 0%, 20%);
 }
-.center-title{
+.center-title {
     
     width: 50%;
     margin-top: 10px;
@@ -277,7 +277,7 @@ main {
     margin-left: 25%;
     margin-bottom: 5%;
 }
-.text-under{
+.text-under {
     width: 50%;
     margin-top: 5px;
     height: 100px;
@@ -285,18 +285,18 @@ main {
     margin-left: 25%;
    
 }
-.learn-more{
+.learn-more {
     margin-left: 35%;
     margin-top: 2%;
 }
-.person-of-the-week{
+.person-of-the-week {
     display: flex;
     justify-content: space-around;
 
     height: 300px;
     background-color: hsl(0, 0%, 60%);
 }
-.profile{
+.profile {
     height: 250px;
     width: 30%;
     background-color: gray;
@@ -305,7 +305,7 @@ main {
     margin-top: 2%;
 
 }
-.text-description{
+.text-description {
     width: 75%;
     margin: 2% 3%;
     background-color: hsl(0, 0%, 30%);

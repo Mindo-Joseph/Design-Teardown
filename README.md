@@ -8,18 +8,19 @@ This project consists of building a heatmap of the Smashing Magazine website.
 
 
 # Authors
+
 👤 Joseph Mindo
 
 - Github: Mindo-Joseph
 - Twitter: @mindoJoseph
-- Linkedin: Joseph Mindo
+- Linkedin: https://www.linkedin.com/in/joseph-mindo-367284132/
 
 
 👤 María de los Angeles Hinojosa Pretell
 
 - Github: @angelesh1995
 - Twitter: @Maria_AngelesxD
-- Linkedin: linkedin
+- Linkedin: https://www.linkedin.com/in/mar%C3%ADa-de-los-angeles-hinojosa-pretell-99935a66/
 
 # Contributing
 Contributions, issues and feature requests are welcome!
