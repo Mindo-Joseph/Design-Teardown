@@ -250,3 +250,42 @@ main {
 .red {
   border-radius: 20px;
 }
+.ad {
+    margin-top: 10% ;
+    margin-top: 10% ;
+}
+.text{
+    text-align: center;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.bigger-ad{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 600px;
+    background-color: hsl(0, 0%, 20%);
+}
+.center-title{
+    
+    width: 50%;
+    margin-top: 10px;
+    height: 75px;
+    background-color:hsl(0, 0%, 80%);
+    border-radius: 7px;
+    margin-left: 25%;
+    margin-bottom: 5%;
+}
+.text-under{
+    width: 50%;
+    margin-top: 5px;
+    height: 100px;
+    background-color: hsl(0, 0%, 50%);
+    margin-left: 25%;
+   
+}
+.learn-more{
+    margin-left: 35%;
+    margin-top: 2%;
+}
