@@ -354,3 +354,11 @@ main {
   margin-right: 20px;
   display: row;
 }
+.articles-row-1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: 50%;
+  margin-left: 5%;
+
+}
