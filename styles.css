@@ -83,7 +83,6 @@ video {
   padding: 0;
   border: 0;
   font-size: 100%;
-  font: inherit;
   vertical-align: baseline;
 }
 
@@ -105,7 +104,6 @@ section {
 body {
   line-height: 1;
   font-family: 'Roboto', sans-serif;
-  
 }
 
 ol,
@@ -118,10 +116,10 @@ q {
   quotes: none;
 }
 
-blockquote:before,
-blockquote:after,
-q:before,
-q:after {
+blockquote::before,
+blockquote::after,
+q::before,
+q::after {
   content: '';
   content: none;
 }
@@ -133,7 +131,6 @@ table {
 
 * {
   box-sizing: border-box;
-
 }
 
 .main-header {
@@ -168,7 +165,6 @@ li {
 
 main {
   position: relative;
-
 }
 
 .content {
@@ -198,7 +194,6 @@ main {
 .article-title {
   height: 75px;
   background-color: hsl(0, 0%, 15%);
-
 }
 
 .tags {
@@ -257,7 +252,6 @@ main {
 
 .ad {
   margin-top: 10%;
-  margin-top: 10%;
 }
 
 .text {
@@ -275,7 +269,6 @@ main {
 }
 
 .center-title {
-
   width: 50%;
   margin-top: 10px;
   height: 75px;
@@ -291,7 +284,6 @@ main {
   height: 100px;
   background-color: hsl(0, 0%, 50%);
   margin-left: 25%;
-
 }
 
 .learn-more {
@@ -299,7 +291,8 @@ main {
   margin-top: 2%;
 }
 
-.person-of-the-week,.systems {
+.person-of-the-week,
+.systems {
   display: flex;
   justify-content: space-around;
   height: 300px;
@@ -313,7 +306,6 @@ main {
   display: inline-block;
   margin-left: 2%;
   margin-top: 2%;
-
 }
 
 .text-description {
@@ -356,13 +348,13 @@ main {
   margin-right: 20px;
   display: row;
 }
+
 .articles-row-1 {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
   width: 50%;
   margin-left: 5%;
-
 }
 
 .guides {
@@ -372,34 +364,37 @@ main {
   margin-top: 2%;
   background-color: hsl(0, 0%, 40%);
 }
-.story-2{
+
+.story-2 {
   width: 33%;
   text-align: center;
   background-color: hsl(0, 0%, 50%);
 }
-.title-article{
+
+.title-article {
   width: 40%;
   height: 40px;
   margin-top: 6%;
   margin-left: 15%;
   background-color: hsl(0, 0%, 70%);
 }
+
 .newsletter {
   display: flex;
   height: 700px;
   margin-top: 2%;
 }
+
 .guide {
   width: 30%;
-  
-
-
 }
+
 .newsletter-article {
   width: 100%;
-  height: 400px; 
+  height: 400px;
   background-color: hsl(0, 0%, 30%);
 }
+
 .news {
   width: 60%;
   height: 600px;
@@ -407,15 +402,18 @@ main {
   border-radius: 8px;
   background-color: hsl(0, 0%, 20%);
 }
+
 .subscribe {
   margin-top: 30%;
 }
+
 .newsletter-title-article {
   width: 40%;
   height: 40px;
   margin-left: 15%;
   background-color: hsl(0, 0%, 70%);
 }
+
 .footer {
   height: 600px;
   background-color: hsl(0, 0%, 15%);
