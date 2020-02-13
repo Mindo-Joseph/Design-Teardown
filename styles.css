@@ -289,3 +289,24 @@ main {
     margin-left: 35%;
     margin-top: 2%;
 }
+.person-of-the-week{
+    display: flex;
+    justify-content: space-around;
+
+    height: 300px;
+    background-color: hsl(0, 0%, 60%);
+}
+.profile{
+    height: 250px;
+    width: 30%;
+    background-color: gray;
+    display: inline-block;
+    margin-left: 2%;
+    margin-top: 2%;
+
+}
+.text-description{
+    width: 75%;
+    margin: 2% 3%;
+    background-color: hsl(0, 0%, 30%);
+}
