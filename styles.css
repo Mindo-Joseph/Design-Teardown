@@ -211,6 +211,12 @@ main {
 .dark {
   background-color: hsl(0, 0%, 20%);
 }
+.darker {
+  width: 33%;
+  text-align: center;
+  background-color: hsl(0, 0%, 10%)
+
+}
 
 .center-text {
   background-color: white;
@@ -267,6 +273,19 @@ main {
   justify-content: center;
   height: 600px;
   background-color: hsl(0, 0%, 20%);
+}
+.article-with-red{
+  display: flex;
+  justify-content: space-evenly;
+  height: 400px;
+  
+}
+.two {
+  margin-top: 2%;
+}
+
+.other-articles{
+  margin-top: 2%;
 }
 
 .center-title {
