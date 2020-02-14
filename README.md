@@ -5,7 +5,8 @@ This project consists of building a heatmap of the Smashing Magazine website.
 # Built With
 - HTML
 - CSS
-
+# Live demo link
+The project can be found in this link [https://design-teardown-hh41gxx6q.now.sh/]
 
 # Authors
 
