@@ -18,7 +18,7 @@
   margin-left: 2%;
 }
 
-li {
+.li-logo {
   height: 100px;
   width: 120px;
   background-color: gray;
@@ -310,6 +310,62 @@ main {
 }
 
 .footer {
-  height: 600px;
+  height: 625px;
   background-color: hsl(0, 0%, 15%);
+  text-align: center;
+}
+
+.h3-footer {
+margin-top: 6px;
+justify-content: center;
+color: aliceblue;
+padding-top: 5%;
+}
+
+.ul-footer {
+  display:flex;
+  flex-flow: row wrap;
+  color: aliceblue;
+  justify-content: center;
+}
+
+li {
+margin-top: 30px;
+margin-right: 30px;
+list-style-type: disc;
+justify-content: space-between;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+.em-div {
+  margin-top: 60px;
+}
+
+.em-footer {
+  color: aliceblue;
+  text-align: center;
+  line-height: 30px;
+}
+
+.net-latino {
+  text-decoration: underline;
+}
+
+.innerfooter {
+  display: flex;
+  justify-content: center;
+  color: white;
+  text-decoration: underline;
+}
+
+.innerfooter li {
+  list-style-type: none;
+}
+
+.last {
+  margin-bottom: 3%;
 }
