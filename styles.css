@@ -211,11 +211,11 @@ main {
 .dark {
   background-color: hsl(0, 0%, 20%);
 }
+
 .darker {
   width: 33%;
   text-align: center;
-  background-color: hsl(0, 0%, 10%)
-
+  background-color: hsl(0, 0%, 10%);
 }
 
 .center-text {
@@ -252,7 +252,6 @@ main {
   justify-content: space-evenly;
 }
 
-
 .red {
   border-radius: 20px;
 }
@@ -274,17 +273,18 @@ main {
   height: 600px;
   background-color: hsl(0, 0%, 20%);
 }
-.article-with-red{
+
+.article-with-red {
   display: flex;
   justify-content: space-evenly;
   height: 400px;
-  
 }
+
 .two {
   margin-top: 2%;
 }
 
-.other-articles{
+.other-articles {
   margin-top: 2%;
 }
 
