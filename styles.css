@@ -1,0 +1,371 @@
+
+* {
+  box-sizing: border-box;
+}
+
+.main-header {
+  padding: 20px 0;
+}
+
+.header-items {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  display: inline-block;
+  margin-left: 2%;
+}
+
+.li-logo {
+  height: 100px;
+  width: 120px;
+  background-color: gray;
+  display: inline-block;
+  margin-right: 15px;
+}
+
+.search {
+  width: 120px;
+  height: 30px;
+  margin-right: 4%;
+  background-color: gray;
+}
+
+main {
+  position: relative;
+}
+
+.content {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.story,
+.red-square,
+.twin-parent {
+  width: 50%;
+  text-align: center;
+  padding-top: 15%;
+  padding-left: 5%;
+  padding-right: 5%;
+  background-color: hsl(0, 0%, 50%);
+}
+
+.author {
+  height: 50px;
+  width: 50%;
+  margin-bottom: 30px;
+  background-color: hsl(0, 0%, 35%);
+}
+
+.article-title {
+  height: 75px;
+  background-color: hsl(0, 0%, 15%);
+}
+
+.tags {
+  height: 15px;
+  width: 40%;
+  margin-top: 5%;
+  margin-bottom: 20%;
+  background-color: hsl(0, 0%, 60%);
+}
+
+.light {
+  background-color: hsl(0, 0%, 80%);
+}
+
+.dark {
+  background-color: hsl(0, 0%, 20%);
+}
+
+.darker {
+  width: 33%;
+  text-align: center;
+  background-color: hsl(0, 0%, 10%);
+}
+
+.center-text {
+  background-color: white;
+  position: absolute;
+  left: 42%;
+  margin-top: 2%;
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.blue {
+  width: 100%;
+  height: 400px;
+  background-color: black;
+  display: flex;
+  align-items: flex-end;
+}
+
+.blue-button {
+  width: 25%;
+  height: 55px;
+  background-color: white;
+  border-radius: 7px;
+  margin-left: 15%;
+  margin-bottom: 5%;
+}
+
+.three-sections {
+  width: 100%;
+  height: 500px;
+  background-color: gray;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.red {
+  border-radius: 20px;
+}
+
+.ad {
+  margin-top: 10%;
+}
+
+.text {
+  text-align: center;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+.bigger-ad {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 600px;
+  background-color: hsl(0, 0%, 20%);
+}
+
+.article-with-red {
+  display: flex;
+  justify-content: space-evenly;
+  height: 400px;
+}
+
+.two {
+  margin-top: 2%;
+}
+
+.other-articles {
+  margin-top: 2%;
+}
+
+.center-title {
+  width: 50%;
+  margin-top: 10px;
+  height: 75px;
+  background-color: hsl(0, 0%, 80%);
+  border-radius: 7px;
+  margin-left: 25%;
+  margin-bottom: 5%;
+}
+
+.text-under {
+  width: 50%;
+  margin-top: 5px;
+  height: 100px;
+  background-color: hsl(0, 0%, 50%);
+  margin-left: 25%;
+}
+
+.learn-more {
+  margin-left: 35%;
+  margin-top: 2%;
+}
+
+.person-of-the-week,
+.systems {
+  display: flex;
+  justify-content: space-around;
+  height: 300px;
+  background-color: hsl(0, 0%, 60%);
+}
+
+.profile {
+  height: 250px;
+  width: 30%;
+  background-color: gray;
+  display: inline-block;
+  margin-left: 2%;
+  margin-top: 2%;
+}
+
+.text-description {
+  width: 75%;
+  margin: 2% 3%;
+  background-color: hsl(0, 0%, 30%);
+}
+
+.red-square {
+  background-color: hsl(0, 0%, 30%);
+  height: 550px;
+}
+
+.explore-features {
+  width: 40%;
+  height: 55px;
+  background-color: white;
+  border-radius: 7px;
+  margin-left: 20%;
+  margin-top: 150px;
+}
+
+.twin-parent {
+  display: flex;
+  background-color: hsl(0, 0%, 70%);
+}
+
+.six {
+  display: flex;
+}
+
+.six-articles {
+  width: 100%;
+  height: 500px;
+  display: flex;
+  margin-bottom: 20px;
+  background-color: hsl(0, 0%, 80%);
+}
+
+.profile-six {
+  width: 50px;
+  height: 50px;
+  background-color: hsl(0, 0%, 40%);
+  margin-right: 20px;
+  display: row;
+}
+
+.articles-row-1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: 50%;
+  margin-left: 5%;
+}
+
+.guides {
+  display: flex;
+  justify-content: space-evenly;
+  height: 400px;
+  margin-top: 2%;
+  background-color: hsl(0, 0%, 40%);
+}
+
+.story-2 {
+  width: 33%;
+  text-align: center;
+  background-color: hsl(0, 0%, 50%);
+}
+
+.title-article {
+  width: 40%;
+  height: 40px;
+  margin-top: 6%;
+  margin-left: 15%;
+  text-align: center;
+  background-color: hsl(0, 0%, 70%);
+}
+
+.newsletter {
+  display: flex;
+  height: 700px;
+  margin-top: 2%;
+}
+
+.guide {
+  width: 30%;
+}
+
+.newsletter-article {
+  width: 100%;
+  height: 400px;
+  background-color: hsl(0, 0%, 30%);
+}
+
+.news {
+  width: 60%;
+  height: 600px;
+  margin-left: 5%;
+  border-radius: 8px;
+  background-color: hsl(0, 0%, 20%);
+}
+
+.subscribe {
+  margin-top: 30%;
+}
+
+.newsletter-title-article {
+  width: 40%;
+  height: 40px;
+  margin-left: 15%;
+  background-color: hsl(0, 0%, 70%);
+}
+
+.footer {
+  height: 625px;
+  background-color: hsl(0, 0%, 15%);
+  text-align: center;
+}
+
+.h3-footer {
+  margin-top: 6px;
+  justify-content: center;
+  color: aliceblue;
+  padding-top: 5%;
+}
+
+.ul-footer {
+  display: flex;
+  flex-flow: row wrap;
+  color: aliceblue;
+  justify-content: center;
+}
+
+li {
+  margin-top: 30px;
+  margin-right: 30px;
+  list-style-type: disc;
+  justify-content: space-between;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+.em-div {
+  margin-top: 60px;
+}
+
+.em-footer {
+  color: aliceblue;
+  text-align: center;
+  line-height: 30px;
+}
+
+.net-latino {
+  text-decoration: underline;
+}
+
+.innerfooter {
+  display: flex;
+  justify-content: center;
+  color: white;
+  text-decoration: underline;
+}
+
+.innerfooter li {
+  list-style-type: none;
+}
+
+.last {
+  margin-bottom: 3%;
+}
